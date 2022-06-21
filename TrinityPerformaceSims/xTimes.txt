@@ -1,0 +1,658 @@
+Source RA: 0 Source Dec: -90 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -88 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -86 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -84 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -82 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -80 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -78 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -76 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: -74 Time that source was in view (hr): 1.73333
+Source RA: 0 Source Dec: -72 Time that source was in view (hr): 2.61667
+Source RA: 0 Source Dec: -70 Time that source was in view (hr): 3.16667
+Source RA: 0 Source Dec: -68 Time that source was in view (hr): 3.58333
+Source RA: 0 Source Dec: -66 Time that source was in view (hr): 3.93333
+Source RA: 0 Source Dec: -64 Time that source was in view (hr): 4.2
+Source RA: 0 Source Dec: -62 Time that source was in view (hr): 4.45
+Source RA: 0 Source Dec: -60 Time that source was in view (hr): 4.65
+Source RA: 0 Source Dec: -58 Time that source was in view (hr): 4.83333
+Source RA: 0 Source Dec: -56 Time that source was in view (hr): 5.01667
+Source RA: 0 Source Dec: -54 Time that source was in view (hr): 5.16667
+Source RA: 0 Source Dec: -52 Time that source was in view (hr): 5.31667
+Source RA: 0 Source Dec: -50 Time that source was in view (hr): 4.23333
+Source RA: 0 Source Dec: -48 Time that source was in view (hr): 3.71667
+Source RA: 0 Source Dec: -46 Time that source was in view (hr): 3.4
+Source RA: 0 Source Dec: -44 Time that source was in view (hr): 3.15
+Source RA: 0 Source Dec: -42 Time that source was in view (hr): 2.98333
+Source RA: 0 Source Dec: -40 Time that source was in view (hr): 2.81667
+Source RA: 0 Source Dec: -38 Time that source was in view (hr): 2.7
+Source RA: 0 Source Dec: -36 Time that source was in view (hr): 2.6
+Source RA: 0 Source Dec: -34 Time that source was in view (hr): 2.5
+Source RA: 0 Source Dec: -32 Time that source was in view (hr): 2.43333
+Source RA: 0 Source Dec: -30 Time that source was in view (hr): 2.35
+Source RA: 0 Source Dec: -28 Time that source was in view (hr): 2.3
+Source RA: 0 Source Dec: -26 Time that source was in view (hr): 2.25
+Source RA: 0 Source Dec: -24 Time that source was in view (hr): 2.21667
+Source RA: 0 Source Dec: -22 Time that source was in view (hr): 2.16667
+Source RA: 0 Source Dec: -20 Time that source was in view (hr): 2.13333
+Source RA: 0 Source Dec: -18 Time that source was in view (hr): 2.1
+Source RA: 0 Source Dec: -16 Time that source was in view (hr): 2.08333
+Source RA: 0 Source Dec: -14 Time that source was in view (hr): 2.06667
+Source RA: 0 Source Dec: -12 Time that source was in view (hr): 2.05
+Source RA: 0 Source Dec: -10 Time that source was in view (hr): 2.05
+Source RA: 0 Source Dec: -8 Time that source was in view (hr): 2.05
+Source RA: 0 Source Dec: -6 Time that source was in view (hr): 2.05
+Source RA: 0 Source Dec: -4 Time that source was in view (hr): 2.05
+Source RA: 0 Source Dec: -2 Time that source was in view (hr): 2.06667
+Source RA: 0 Source Dec: 0 Time that source was in view (hr): 2.08333
+Source RA: 0 Source Dec: 2 Time that source was in view (hr): 2.1
+Source RA: 0 Source Dec: 4 Time that source was in view (hr): 2.13333
+Source RA: 0 Source Dec: 6 Time that source was in view (hr): 2.15
+Source RA: 0 Source Dec: 8 Time that source was in view (hr): 2.2
+Source RA: 0 Source Dec: 10 Time that source was in view (hr): 2.25
+Source RA: 0 Source Dec: 12 Time that source was in view (hr): 2.31667
+Source RA: 0 Source Dec: 14 Time that source was in view (hr): 2.38333
+Source RA: 0 Source Dec: 16 Time that source was in view (hr): 2.46667
+Source RA: 0 Source Dec: 18 Time that source was in view (hr): 2.56667
+Source RA: 0 Source Dec: 20 Time that source was in view (hr): 2.68333
+Source RA: 0 Source Dec: 22 Time that source was in view (hr): 2.85
+Source RA: 0 Source Dec: 24 Time that source was in view (hr): 3.08333
+Source RA: 0 Source Dec: 26 Time that source was in view (hr): 3.45
+Source RA: 0 Source Dec: 28 Time that source was in view (hr): 4.31667
+Source RA: 0 Source Dec: 30 Time that source was in view (hr): 4.16667
+Source RA: 0 Source Dec: 32 Time that source was in view (hr): 4
+Source RA: 0 Source Dec: 34 Time that source was in view (hr): 3.83333
+Source RA: 0 Source Dec: 36 Time that source was in view (hr): 3.63333
+Source RA: 0 Source Dec: 38 Time that source was in view (hr): 3.43333
+Source RA: 0 Source Dec: 40 Time that source was in view (hr): 3.2
+Source RA: 0 Source Dec: 42 Time that source was in view (hr): 2.93333
+Source RA: 0 Source Dec: 44 Time that source was in view (hr): 2.65
+Source RA: 0 Source Dec: 46 Time that source was in view (hr): 2.28333
+Source RA: 0 Source Dec: 48 Time that source was in view (hr): 1.85
+Source RA: 0 Source Dec: 50 Time that source was in view (hr): 1.21667
+Source RA: 0 Source Dec: 52 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 54 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 56 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 58 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 60 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 62 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 64 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 66 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 68 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 70 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 72 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 74 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 76 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 78 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 80 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 82 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 84 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 86 Time that source was in view (hr): 0
+Source RA: 0 Source Dec: 88 Time that source was in view (hr): 0
+Average source cross time (hr):2.91138
+
+
+Source RA: 0 Source Dec: -90 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -88 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -86 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -84 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -82 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -80 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -78 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -76 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: -74 Time that source was in view (hr): 1.73333 Acceptance of source after 1 hours: 9.17999e+07
+Source RA: 0 Source Dec: -72 Time that source was in view (hr): 2.61667 Acceptance of source after 1 hours: 4.3303e+08
+Source RA: 0 Source Dec: -70 Time that source was in view (hr): 3.16667 Acceptance of source after 1 hours: 1.34457e+09
+Source RA: 0 Source Dec: -68 Time that source was in view (hr): 3.58333 Acceptance of source after 1 hours: 2.55663e+09
+Source RA: 0 Source Dec: -66 Time that source was in view (hr): 3.93333 Acceptance of source after 1 hours: 4.4016e+09
+Source RA: 0 Source Dec: -64 Time that source was in view (hr): 4.2 Acceptance of source after 1 hours: 1.01815e+10
+Source RA: 0 Source Dec: -62 Time that source was in view (hr): 4.45 Acceptance of source after 1 hours: 1.90913e+10
+Source RA: 0 Source Dec: -60 Time that source was in view (hr): 4.65 Acceptance of source after 1 hours: 2.45436e+10
+Source RA: 0 Source Dec: -58 Time that source was in view (hr): 4.83333 Acceptance of source after 1 hours: 2.94901e+10
+Source RA: 0 Source Dec: -56 Time that source was in view (hr): 5.01667 Acceptance of source after 1 hours: 3.43557e+10
+Source RA: 0 Source Dec: -54 Time that source was in view (hr): 5.16667 Acceptance of source after 1 hours: 3.30771e+10
+Source RA: 0 Source Dec: -52 Time that source was in view (hr): 5.31667 Acceptance of source after 1 hours: 1.49174e+10
+Source RA: 0 Source Dec: -50 Time that source was in view (hr): 4.23333 Acceptance of source after 1 hours: 2.07667e+10
+Source RA: 0 Source Dec: -48 Time that source was in view (hr): 3.71667 Acceptance of source after 1 hours: 2.49953e+10
+Source RA: 0 Source Dec: -46 Time that source was in view (hr): 3.4 Acceptance of source after 1 hours: 2.63371e+10
+Source RA: 0 Source Dec: -44 Time that source was in view (hr): 3.15 Acceptance of source after 1 hours: 2.74119e+10
+Source RA: 0 Source Dec: -42 Time that source was in view (hr): 2.98333 Acceptance of source after 1 hours: 2.74996e+10
+Source RA: 0 Source Dec: -40 Time that source was in view (hr): 2.81667 Acceptance of source after 1 hours: 2.77077e+10
+Source RA: 0 Source Dec: -38 Time that source was in view (hr): 2.7 Acceptance of source after 1 hours: 2.77309e+10
+Source RA: 0 Source Dec: -36 Time that source was in view (hr): 2.6 Acceptance of source after 1 hours: 2.74387e+10
+Source RA: 0 Source Dec: -34 Time that source was in view (hr): 2.5 Acceptance of source after 1 hours: 2.7587e+10
+Source RA: 0 Source Dec: -32 Time that source was in view (hr): 2.43333 Acceptance of source after 1 hours: 2.7217e+10
+Source RA: 0 Source Dec: -30 Time that source was in view (hr): 2.35 Acceptance of source after 1 hours: 2.70031e+10
+Source RA: 0 Source Dec: -28 Time that source was in view (hr): 2.3 Acceptance of source after 1 hours: 2.67812e+10
+Source RA: 0 Source Dec: -26 Time that source was in view (hr): 2.25 Acceptance of source after 1 hours: 2.66072e+10
+Source RA: 0 Source Dec: -24 Time that source was in view (hr): 2.21667 Acceptance of source after 1 hours: 2.63293e+10
+Source RA: 0 Source Dec: -22 Time that source was in view (hr): 2.16667 Acceptance of source after 1 hours: 2.61856e+10
+Source RA: 0 Source Dec: -20 Time that source was in view (hr): 2.13333 Acceptance of source after 1 hours: 2.61573e+10
+Source RA: 0 Source Dec: -18 Time that source was in view (hr): 2.1 Acceptance of source after 1 hours: 2.62163e+10
+Source RA: 0 Source Dec: -16 Time that source was in view (hr): 2.08333 Acceptance of source after 1 hours: 2.60312e+10
+Source RA: 0 Source Dec: -14 Time that source was in view (hr): 2.06667 Acceptance of source after 1 hours: 2.59423e+10
+Source RA: 0 Source Dec: -12 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.58794e+10
+Source RA: 0 Source Dec: -10 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.56753e+10
+Source RA: 0 Source Dec: -8 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.56881e+10
+Source RA: 0 Source Dec: -6 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.55233e+10
+Source RA: 0 Source Dec: -4 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.568e+10
+Source RA: 0 Source Dec: -2 Time that source was in view (hr): 2.06667 Acceptance of source after 1 hours: 2.5569e+10
+Source RA: 0 Source Dec: 0 Time that source was in view (hr): 2.08333 Acceptance of source after 1 hours: 2.54194e+10
+Source RA: 0 Source Dec: 2 Time that source was in view (hr): 2.1 Acceptance of source after 1 hours: 2.57503e+10
+Source RA: 0 Source Dec: 4 Time that source was in view (hr): 2.13333 Acceptance of source after 1 hours: 2.56474e+10
+Source RA: 0 Source Dec: 6 Time that source was in view (hr): 2.15 Acceptance of source after 1 hours: 2.59408e+10
+Source RA: 0 Source Dec: 8 Time that source was in view (hr): 2.2 Acceptance of source after 1 hours: 2.59007e+10
+Source RA: 0 Source Dec: 10 Time that source was in view (hr): 2.25 Acceptance of source after 1 hours: 2.60756e+10
+Source RA: 0 Source Dec: 12 Time that source was in view (hr): 2.31667 Acceptance of source after 1 hours: 2.59414e+10
+Source RA: 0 Source Dec: 14 Time that source was in view (hr): 2.38333 Acceptance of source after 1 hours: 2.62102e+10
+Source RA: 0 Source Dec: 16 Time that source was in view (hr): 2.46667 Acceptance of source after 1 hours: 2.63415e+10
+Source RA: 0 Source Dec: 18 Time that source was in view (hr): 2.56667 Acceptance of source after 1 hours: 2.64456e+10
+Source RA: 0 Source Dec: 20 Time that source was in view (hr): 2.68333 Acceptance of source after 1 hours: 2.68572e+10
+Source RA: 0 Source Dec: 22 Time that source was in view (hr): 2.85 Acceptance of source after 1 hours: 2.722e+10
+Source RA: 0 Source Dec: 24 Time that source was in view (hr): 3.08333 Acceptance of source after 1 hours: 2.74042e+10
+Source RA: 0 Source Dec: 26 Time that source was in view (hr): 3.45 Acceptance of source after 1 hours: 2.76575e+10
+Source RA: 0 Source Dec: 28 Time that source was in view (hr): 4.31667 Acceptance of source after 1 hours: 2.78802e+10
+Source RA: 0 Source Dec: 30 Time that source was in view (hr): 4.16667 Acceptance of source after 1 hours: 2.79136e+10
+Source RA: 0 Source Dec: 32 Time that source was in view (hr): 4 Acceptance of source after 1 hours: 2.81233e+10
+Source RA: 0 Source Dec: 34 Time that source was in view (hr): 3.83333 Acceptance of source after 1 hours: 2.80401e+10
+Source RA: 0 Source Dec: 36 Time that source was in view (hr): 3.63333 Acceptance of source after 1 hours: 2.84689e+10
+Source RA: 0 Source Dec: 38 Time that source was in view (hr): 3.43333 Acceptance of source after 1 hours: 2.82208e+10
+Source RA: 0 Source Dec: 40 Time that source was in view (hr): 3.2 Acceptance of source after 1 hours: 2.81339e+10
+Source RA: 0 Source Dec: 42 Time that source was in view (hr): 2.93333 Acceptance of source after 1 hours: 2.80697e+10
+Source RA: 0 Source Dec: 44 Time that source was in view (hr): 2.65 Acceptance of source after 1 hours: 2.67687e+10
+Source RA: 0 Source Dec: 46 Time that source was in view (hr): 2.28333 Acceptance of source after 1 hours: 2.55426e+10
+Source RA: 0 Source Dec: 48 Time that source was in view (hr): 1.85 Acceptance of source after 1 hours: 2.19197e+10
+Source RA: 0 Source Dec: 50 Time that source was 	in view (hr): 1.21667 Acceptance of source after 1 hours: 1.52741e+10
+Source RA: 0 Source Dec: 52 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 54 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 56 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 58 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 60 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 62 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 64 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 66 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 68 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 70 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 72 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 74 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 76 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 78 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 80 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 82 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 84 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 86 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 0 Source Dec: 88 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Average source cross time (hr):2.91138
+Average source acceptance: 2.40256e+10
+
+
+Source RA: 30 Source Dec: -90 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -88 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -86 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -84 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -82 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -80 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -78 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -76 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: -74 Time that source was in view (hr): 3.46667 Acceptance of source after 1 hours: 5.49651e+07
+Source RA: 30 Source Dec: -72 Time that source was in view (hr): 4.61667 Acceptance of source after 1 hours: 2.22139e+08
+Source RA: 30 Source Dec: -70 Time that source was in view (hr): 5.16667 Acceptance of source after 1 hours: 6.80946e+08
+Source RA: 30 Source Dec: -68 Time that source was in view (hr): 5.58333 Acceptance of source after 1 hours: 1.91087e+09
+Source RA: 30 Source Dec: -66 Time that source was in view (hr): 5.93333 Acceptance of source after 1 hours: 2.90701e+09
+Source RA: 30 Source Dec: -64 Time that source was in view (hr): 6.2 Acceptance of source after 1 hours: 6.31036e+09
+Source RA: 30 Source Dec: -62 Time that source was in view (hr): 6.45 Acceptance of source after 1 hours: 1.22895e+10
+Source RA: 30 Source Dec: -60 Time that source was in view (hr): 6.65 Acceptance of source after 1 hours: 1.92111e+10
+Source RA: 30 Source Dec: -58 Time that source was in view (hr): 6.83333 Acceptance of source after 1 hours: 2.43639e+10
+Source RA: 30 Source Dec: -56 Time that source was in view (hr): 7.01667 Acceptance of source after 1 hours: 2.92485e+10
+Source RA: 30 Source Dec: -54 Time that source was in view (hr): 7.16667 Acceptance of source after 1 hours: 3.41776e+10
+Source RA: 30 Source Dec: -52 Time that source was in view (hr): 7.31667 Acceptance of source after 1 hours: 3.14886e+10
+Source RA: 30 Source Dec: -50 Time that source was in view (hr): 5.01667 Acceptance of source after 1 hours: 1.45351e+10
+Source RA: 30 Source Dec: -48 Time that source was in view (hr): 3.86667 Acceptance of source after 1 hours: 2.04186e+10
+Source RA: 30 Source Dec: -46 Time that source was in view (hr): 3.4 Acceptance of source after 1 hours: 2.63371e+10
+Source RA: 30 Source Dec: -44 Time that source was in view (hr): 3.15 Acceptance of source after 1 hours: 2.74119e+10
+Source RA: 30 Source Dec: -42 Time that source was in view (hr): 2.98333 Acceptance of source after 1 hours: 2.74996e+10
+Source RA: 30 Source Dec: -40 Time that source was in view (hr): 2.81667 Acceptance of source after 1 hours: 2.77077e+10
+Source RA: 30 Source Dec: -38 Time that source was in view (hr): 2.7 Acceptance of source after 1 hours: 2.77309e+10
+Source RA: 30 Source Dec: -36 Time that source was in view (hr): 2.6 Acceptance of source after 1 hours: 2.74387e+10
+Source RA: 30 Source Dec: -34 Time that source was in view (hr): 2.5 Acceptance of source after 1 hours: 2.7587e+10
+Source RA: 30 Source Dec: -32 Time that source was in view (hr): 2.43333 Acceptance of source after 1 hours: 2.7217e+10
+Source RA: 30 Source Dec: -30 Time that source was in view (hr): 2.35 Acceptance of source after 1 hours: 2.70031e+10
+Source RA: 30 Source Dec: -28 Time that source was in view (hr): 2.3 Acceptance of source after 1 hours: 2.67812e+10
+Source RA: 30 Source Dec: -26 Time that source was in view (hr): 2.25 Acceptance of source after 1 hours: 2.66072e+10
+Source RA: 30 Source Dec: -24 Time that source was in view (hr): 2.21667 Acceptance of source after 1 hours: 2.63293e+10
+Source RA: 30 Source Dec: -22 Time that source was in view (hr): 2.16667 Acceptance of source after 1 hours: 2.61856e+10
+Source RA: 30 Source Dec: -20 Time that source was in view (hr): 2.13333 Acceptance of source after 1 hours: 2.61573e+10
+Source RA: 30 Source Dec: -18 Time that source was in view (hr): 2.1 Acceptance of source after 1 hours: 2.62163e+10
+Source RA: 30 Source Dec: -16 Time that source was in view (hr): 2.08333 Acceptance of source after 1 hours: 2.60312e+10
+Source RA: 30 Source Dec: -14 Time that source was in view (hr): 2.06667 Acceptance of source after 1 hours: 2.59423e+10
+Source RA: 30 Source Dec: -12 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.58794e+10
+Source RA: 30 Source Dec: -10 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.56753e+10
+Source RA: 30 Source Dec: -8 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.56881e+10
+Source RA: 30 Source Dec: -6 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.55233e+10
+Source RA: 30 Source Dec: -4 Time that source was in view (hr): 2.05 Acceptance of source after 1 hours: 2.568e+10
+Source RA: 30 Source Dec: -2 Time that source was in view (hr): 2.06667 Acceptance of source after 1 hours: 2.5569e+10
+Source RA: 30 Source Dec: 0 Time that source was in view (hr): 2.08333 Acceptance of source after 1 hours: 2.54194e+10
+Source RA: 30 Source Dec: 2 Time that source was in view (hr): 2.1 Acceptance of source after 1 hours: 2.57503e+10
+Source RA: 30 Source Dec: 4 Time that source was in view (hr): 2.13333 Acceptance of source after 1 hours: 2.56474e+10
+Source RA: 30 Source Dec: 6 Time that source was in view (hr): 2.15 Acceptance of source after 1 hours: 2.59408e+10
+Source RA: 30 Source Dec: 8 Time that source was in view (hr): 2.2 Acceptance of source after 1 hours: 2.59007e+10
+Source RA: 30 Source Dec: 10 Time that source was in view (hr): 2.25 Acceptance of source after 1 hours: 2.60756e+10
+Source RA: 30 Source Dec: 12 Time that source was in view (hr): 2.31667 Acceptance of source after 1 hours: 2.59414e+10
+Source RA: 30 Source Dec: 14 Time that source was in view (hr): 2.38333 Acceptance of source after 1 hours: 2.62102e+10
+Source RA: 30 Source Dec: 16 Time that source was in view (hr): 2.46667 Acceptance of source after 1 hours: 2.63415e+10
+Source RA: 30 Source Dec: 18 Time that source was in view (hr): 2.56667 Acceptance of source after 1 hours: 2.64456e+10
+Source RA: 30 Source Dec: 20 Time that source was in view (hr): 2.68333 Acceptance of source after 1 hours: 2.68572e+10
+Source RA: 30 Source Dec: 22 Time that source was in view (hr): 2.73333 Acceptance of source after 1 hours: 2.722e+10
+Source RA: 30 Source Dec: 24 Time that source was in view (hr): 2.6 Acceptance of source after 1 hours: 2.74042e+10
+Source RA: 30 Source Dec: 26 Time that source was in view (hr): 2.46667 Acceptance of source after 1 hours: 2.76575e+10
+Source RA: 30 Source Dec: 28 Time that source was in view (hr): 2.31667 Acceptance of source after 1 hours: 2.78802e+10
+Source RA: 30 Source Dec: 30 Time that source was in view (hr): 2.16667 Acceptance of source after 1 hours: 2.79136e+10
+Source RA: 30 Source Dec: 32 Time that source was in view (hr): 2 Acceptance of source after 1 hours: 2.81233e+10
+Source RA: 30 Source Dec: 34 Time that source was in view (hr): 1.83333 Acceptance of source after 1 hours: 2.80401e+10
+Source RA: 30 Source Dec: 36 Time that source was in view (hr): 1.63333 Acceptance of source after 1 hours: 2.84689e+10
+Source RA: 30 Source Dec: 38 Time that source was in view (hr): 1.43333 Acceptance of source after 1 hours: 2.82208e+10
+Source RA: 30 Source Dec: 40 Time that source was in view (hr): 1.2 Acceptance of source after 1 hours: 2.81339e+10
+Source RA: 30 Source Dec: 42 Time that source was in view (hr): 0.933333 Acceptance of source after 1 hours: 2.57363e+10
+Source RA: 30 Source Dec: 44 Time that source was in view (hr): 0.65 Acceptance of source after 1 hours: 1.44369e+10
+Source RA: 30 Source Dec: 46 Time that source was in view (hr): 0.283333 Acceptance of source after 1 hours: 3.29872e+09
+Source RA: 30 Source Dec: 48 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 50 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 52 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 54 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 56 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 58 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 60 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 62 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 64 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 66 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 68 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 70 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 72 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 74 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 76 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 78 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 80 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 82 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 84 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 86 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Source RA: 30 Source Dec: 88 Time that source was in view (hr): 0 Acceptance of source after 1 hours: 0
+Average source acceptance: 2.32309e+10
+
+Total observation time: 1656.13 hours.
+Total Acceptance over 1656.13 hours: 2.54946e+17
+Duty Cycle: 18.8926 percent
+Total events observed: 1.70644e-11 events/sr
+Longest observation window: 11.8833 hours.
+Vertical FoV of telescope (deg): 23.9
+Horizontal FoV of telescope (deg): 360
+Area of FoV: 2.62093 sr
+Rate of gamma-ray bursts observed per day: 0.208567
+Rate of gamma-ray bursts observed per year: 76.179
+Rate of gamma-ray bursts observed per day with duty cycle: 0.0394037
+Rate of gamma-ray bursts observed per year with duty cycle: 14.3922
+
+Total observation time: 1656.13 hours.
+Total Acceptance over 1656.13 hours: 2.54946e+17
+Duty Cycle: 18.8926 percent
+Total events observed: 1.70644e-11 events/sr
+Longest observation window: 11.8833 hours.
+Shortest observation window: 0 hours.
+Average observation time per night: 4.53423 hours.
+Vertical FoV of telescope (deg): 23.9
+Horizontal FoV of telescope (deg): 360
+Area of FoV: 2.62093 sr
+Rate of gamma-ray bursts observed per day: 0.208567
+Rate of gamma-ray bursts observed per year: 76.179
+Rate of gamma-ray bursts observed per day with duty cycle: 0.0394037
+Rate of gamma-ray bursts observed per year with duty cycle: 14.3922
+
+1 hr: 2.40256e+10
+2 hr: 3.58752e+10
+3 hr: 3.97009e+10
+5 hr: 4.06203e+10
+1 day: 8.12859e+10
+1 week: 2.14439e+11
+1 mo: 6.52813e+11
+1 year: 5.61089e+12
+
+RA: 0, Dec: -52
+
+1 hr: 1.49174e+10
+2 hr: 4.64061e+10
+3 hr: 7.65159e+10
+5 hr: 9.34516e+10
+1 day: 1.86967e+11
+1 week: 4.7788e+11
+1 mo: 9.2702e+11
+1 year: 1.31914e+13
+
+
+
+RA: 77, Dec: 14
+
+1 hr: 2.67614e+10
+2 hr: 3.16239e+10
+3 hr: 3.16754e+10
+5 hr: 3.16754e+10
+1 day: 3.16754e+10
+1 wk: 4.47097e+11
+1 mo: 6.7104e+11
+1 yr: 4.4008e+12
+
+RA: 77, Dec: 46
+
+1 hr: 2.6146e+10
+2 hr: 6.0426e+10
+3 hr: 9.27751e+10
+5 hr: 1.38118e+11
+1 day: 1.38132e+11
+1 wk: 9.67854e+11
+1 mo: 2.18768e+12
+1 yr: 9.20138e+12
+
+RA: 77, Dec: 0
+
+1 hr: 2.54194e+10
+2 hr: 2.89951e+10
+3 hr: 2.8999e+10
+5 hr: 2.8999e+10
+1 day: 5.79839e+10
+1 wk: 1.91548e+11
+1 mo: 3.30766e+11
+1 yr: 4.13288e+12
+
+RA: -86, Dec: -14
+
+1 hr: 2.61478e+10
+2 hr: 2.95863e+10
+3 hr: 2.95878e+10
+5 hr: 2.95878e+10
+1 day: 5.925e+10
+1 wk: 1.9716e+11
+1 mo: 2.57213e+11
+1 yr: 4.14253e+12
+
+RA: -86, Dec: -46
+
+1 hr: 1.30902e+09
+2 hr: 1.30998e+09
+3 hr: 1.30998e+09
+5 hr: 1.30998e+09
+1 day: 1.07659e+11
+1 wk: 7.29358e+11
+1 mo: 1.56695e+12
+1 yr: 7.32773e+12
+
+--
+
+RA: 121, Dec: 0
+
+1hr: 2.54094e+09
+1.533hr: 1.3992e+10
+2hr: 2.84669e+10
+3hr: 2.8999e+10
+4hr: 2.8999e+10
+4.533hr: 2.8999e+10
+5hr: 2.8999e+10
+6hr: 2.8999e+10
+8hr: ""
+10hr: ""
+1day: 5.95855e+10
+1wk: 2.06557e+11
+1mo: 5.21788e+11
+1yr: 3.90145e+12
+
+RA: -143, Dec: 45
+
+1hr: 2.66808e+10
+1.533hr: 4.47496e+10
+2hr: 5.90475e+10
+3hr: 8.98941e+10
+4hr: 1.22464e+11
+4.533hr: 1.40374e+11
+5hr: 1.47409e+11
+6hr: 1.47409e+11
+8hr: ""
+10hr: ""
+12hr: ""
+1day: 2.94188e+11
+1wk: 1.03049e+12
+1mo: 2.47874e+12
+1yr: 1.01744e+13
+
+RA: 74, Dec: -57
+
+1hr: 6.26673e+08
+1.533hr: 2.13152e+09
+2hr: 5.79163e+09
+3hr: 2.43378e+10
+4hr: 5.20813e+10
+4.533hr: 6.83948e+10
+5hr: 8.23283e+10
+6hr: 1.13068e+11
+8hr: 1.56944e+11
+10hr: 1.61555e+11
+12hr: ""
+1day: 3.23059e+11
+1wk: 1.13346e+12
+1mo: 2.39163e+12
+1yr: 1.13613e+13
+
+RA: -65, Dec: -28
+
+1hr: 2.67812e+10
+1.533hr: 3.28862e+10
+2hr: 3.37203e+10
+3hr: 3.37734e+10
+4hr: 3.37734e+10
+4.533hr: 3.37734e+10
+5hr: 3.37734e+10
+6hr: 3.37734e+10
+8hr: ""
+10hr: ""
+12hr: ""
+1day: 6.72525e+10
+1wk: 2.3611e+11
+1mo: 6.20239e+11
+1yr: 4.55573e+12
+
+RA: 127, Dec: 6
+
+1hr: 2.09497e+09
+1.533hr: 1.22977e+10
+2hr: 2.74114e+10
+3hr: 2.9779e+10
+4hr: 2.9779e+10
+4.533hr: 2.9779e+10
+5hr: 2.9779e+10
+6hr: 2.9779e+10
+8hr: ""
+10hr: ""
+12hr: ""
+1day: 5.87522e+10
+1wk: 2.05608e+11
+1mo: 5.18354e+11
+1yr: 3.94488e+12
+
+--
+
+RA: 81, Dec: 0
+
+1hr: 2.5664e+10
+1.53hr: 2.87938e+10
+2hr: 2.91061e+10
+3hr: 2.91094e+10
+4hr: 2.91094e+10
+4.3hr: 2.91094e+10
+5hr: 2.91094e+10
+6hr: 2.91094e+10
+8hr: 2.91094e+10
+10hr: 2.91129e+10
+12hr: 5.81681e+10
+1da: 6.27025e+10
+1wk: 2.16966e+11
+1mo: 3.08261e+11
+1yr: 4.20095e+12
+
+RA: 28, Dec: 45
+
+1hr: 2.70041e+10
+1.53hr: 4.50494e+10
+2hr: 5.93394e+10
+3hr: 9.01804e+10
+4hr: 1.22811e+11
+4.3hr: 1.4063e+11
+5hr: 1.47413e+11
+6hr: 1.47413e+11
+8hr: 1.47413e+11
+10hr: 1.47413e+11
+12hr: 1.47413e+11
+1da: 2.95792e+11
+1wk: 1.01695e+12
+1mo: 2.13122e+12
+1yr: 1.04975e+13
+
+RA: -115, Dec: -57
+
+1hr: 6.55902e+08
+1.53hr: 2.17665e+09
+2hr: 5.92319e+09
+3hr: 2.46477e+10
+4hr: 5.24013e+10
+4.3hr: 6.87181e+10
+5hr: 8.31725e+10
+6hr: 1.13913e+11
+8hr: 1.57559e+11
+10hr: 1.62084e+11
+12hr: 1.62084e+11
+1da: 3.23239e+11
+1wk: 1.13433e+12
+1mo: 2.61381e+12
+1yr: 1.16085e+13
+
+RA: -91, Dec: -28.9
+
+1hr: 2.74909e+09
+1.53hr: 1.36089e+10
+2hr: 2.90171e+10
+3hr: 3.41823e+10
+4hr: 3.41823e+10	
+4.3hr: 3.41823e+10
+5hr: 3.41823e+10
+6hr: 3.41823e+10
+8hr: 3.41823e+10
+10hr: 3.41823e+10
+12hr: 6.48034e+10
+1da: 7.36465e+10
+1wk: 2.88051e+11
+1mo: 5.35445e+11
+1yr: 4.91442e+12
+
+RA: 76, Dec: 5.69
+
+1hr: 2.61656e+10
+1.53hr: 2.9241e+10
+2hr: 2.95909e+10
+3hr: 2.95973e+10
+4hr: 2.95973e+10
+4.3hr: 2.95973e+10
+5hr: 2.95973e+10
+6hr: 2.95973e+10
+8hr: 2.95973e+10
+10hr: 3.04847e+10
+12hr: 5.92972e+10
+1da: 9.69612e+10
+1wk: 3.3445e+11
+1mo: 4.93003e+11
+1yr: 4.43491e+12
+
+---
+
+RA : 84, Dec: -4
+
+1hr: 2.57374e+10
+1.53hr: 2.86457e+10
+2hr: 2.89039e+10
+3hr: 2.89049e+10
+4hr: 2.89049e+10
+4.53hr: 2.89049e+10
+5hr: 2.89049e+10
+6hr: 2.89049e+10
+8hr: 2.89049e+10
+10hr: 2.89049e+10
+12hr: 4.69111e+10
+1day: 5.77498e+10
+1wk: 1.80177e+11
+1mo: 2.34062e+11
+1yr: 4.22786e+12
+
+RA: 28, Dec: 45
+
+1hr: 2.70041e+10
+1.53hr: 4.50494e+10
+2hr: 5.93394e+10
+3hr: 9.01804e+10
+4hr: 1.22811e+11
+4.53hr: 1.4063e+11
+5hr: 1.47413e+11
+6hr: 1.47413e+11
+8hr: 1.47413e+11
+10hr: 1.47413e+11
+12hr: 1.47413e+11
+1day: 2.95792e+11
+1wk: 1.01695e+12
+1mo: 2.13122e+12
+1yr: 1.04975e+13
+
+RA: -111, Dec: -53
+
+1hr: 9.81577e+08
+1.53hr: 3.67127e+09
+2hr: 1.03748e+10
+3hr: 3.57868e+10
+4hr: 7.00049e+10
+4.53hr: 8.63303e+10
+5hr: 9.83448e+10
+6hr: 1.24046e+11
+8hr: 1.87559e+11
+10hr: 2.06354e+11
+12hr: 2.06431e+11
+1day: 4.14674e+11
+1wk: 1.44484e+12
+1mo: 3.26652e+12
+1yr: 1.48835e+13
+
+RA: 107, Dec: -29
+
+1hr: 2.72712e+10
+1.53hr: 3.33489e+10
+2hr: 3.4191e+10
+3hr: 3.42476e+10
+4hr: 3.42476e+10
+4.53hr: 3.42476e+10
+5hr: 3.42476e+10
+6hr: 3.42476e+10
+8hr: 3.42476e+10
+10hr: 3.42476e+10
+12hr: 3.42476e+10
+1day: 6.8898e+10
+1wk: 2.1456e+11
+1mo: 2.79037e+11
+1yr: 4.87278e+12
+
+RA: 64, Dec: 20
+
+1hr: 2.70051e+10
+1.53hr: 3.30737e+10
+2hr: 3.41758e+10
+3hr: 3.43998e+10
+4hr: 3.43998e+10
+4.53hr: 3.43998e+10
+5hr: 3.43998e+10
+6hr: 3.43998e+10
+8hr: 3.51414e+10
+10hr: 6.88678e+10
+12hr: 6.88678e+10
+1day: 1.37039e+11
+1wk: 4.58548e+11
+1mo: 7.34216e+11
+1yr: 5.04363e+12
