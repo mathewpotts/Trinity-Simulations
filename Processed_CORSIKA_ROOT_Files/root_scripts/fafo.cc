@@ -180,7 +180,10 @@ void h()
 }
 
 /*
+ Read information from the summed_avg.root and summed_timing_data_tprofile.root files and 
+ print out to terminal
  
+ Probably for debugging purposes
  */
 void i()
 {
@@ -218,6 +221,13 @@ void i()
     }
 }
 
+/*
+ Read the summed_avg.root file to extract the Weighted Photon Arrival Timing Spread and create
+ a 2D histogram 2dhisto.root
+
+ Produces weird error where the file isn't properly closed:
+ Warning in <TFile::Init>: file /storage/hive/project/phy-otte/mpotts32/trinity/trinity-simulations/Processed_CORSIKA_ROOT_Files/processed_root_files/summed_avg.root probably not closed, trying to recover
+ */
 void j()
 {
   TString filename;
@@ -227,8 +237,8 @@ void j()
   //TH1D *h;
   TString h_internal;
   
-  Double_t shower_e = 1e6;
-  Double_t t_trigger = 30;
+  Double_t shower_e = 1e6; // shower energy
+  Double_t t_trigger = 30; // trigger pulse width
   
   TH2D *h_w = new TH2D("timings_w", "Weighted Photon Arrival Timing Spread", 80, 0, 40, 10, 0, 1);
   
@@ -277,6 +287,8 @@ void j()
   
   filename.Form("/processed_root_files/2dhisto.root");
   TFile *f = new TFile(CWD + filename, "RECREATE");
+  h_w->GetXaxis()->SetTitle("Azimuth (degrees)");
+  h_w->GetYaxis()->SetTitle("Elevation (degrees)");
   h_w->Write();
   
   f->Close();
@@ -286,7 +298,7 @@ void j()
 int main(int argc, char **argv)
 {
   
-  j();
+  f(1);
   
   return 0;
 }
