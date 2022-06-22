@@ -14,125 +14,140 @@
 
 using namespace std;
 
-// Global variable for the "Processed_CORSIKA_ROOT_Files" directory
-// using the same directory structure that appears in the shared directory
+/*
+ Global variable for the "Processed_CORSIKA_ROOT_Files" directory
+ using the same directory structure that appears in the shared directory
+*/
 Bool_t cd = gSystem->cd("../"); // must declare type
 TString CWD = gSystem->pwd(); // One dir up from this file
 
-void f(int showerid)
+/*
+ Read in Trinity Shower information from root files and generate a 
+ timing_data_histogram_shower%d.root file 
+*/
+void f(int showerid) // currently sums only one shower tile file at different elevations
 {
-	int nfiles = 11;
-	int nshowers = 1;
-	int maxazi = 40;
-	int binsperangle = 2;
+  int nfiles = 11;
+  int nshowers = 1; // there are 9 showers simulated from CORSIKA
+  int maxazi = 40;
+  int binsperangle = 2;
+  
+  TString filepath;
+  TString internal;
+  TString title;
+  TString n;
+  
+  TH1D *arrivaltimes[nfiles * maxazi * binsperangle];
+  
+  int c = 0;
+  int shower = showerid;	
+  
+  //for(int shower = 0; shower < nshowers; shower++) // Commented out to save time?
+  {
+    for(float ele = 0.0; ele <= 1.05; ele += 0.1)
+      {
+	filepath.Clear();
+	filepath.Form("/TrinityShowers/SHOWER%d/22147882_%d_DAT10500%d_ELV%.1f_TELEHEIGHT_2000_TARGET_50.root", shower, shower, shower, ele);
+	internal.Clear();
 	
-	TString filepath;
-	TString internal;
-	TString title;
-	TString n;
+	TFile *fo = new TFile(CWD + filepath, "READ");
 	
-	TH1D *arrivaltimes[nfiles * maxazi * binsperangle];
-	
-	int c = 0;
-	int shower = showerid;	
-
-	//for(int shower = 0; shower < nshowers; shower++)
-	{
-		for(float ele = 0.0; ele <= 1.05; ele += 0.1)
-		{
-			filepath.Clear();
-			filepath.Form("%s/TrinityShowers/SHOWER%d/22147882_%d_DAT10500%d_ELV%.1f_TELEHEIGHT_2000_TARGET_50.root", CWD, shower, shower, shower, ele);
-			internal.Clear();
-			
-			TFile *fo = new TFile(filepath, "READ");
-			
-			for(float f = 0.25; f <= 39.751; f += 0.5)
-			{
-				n.Form("h_Arrivaltimes_AzimuthOffset%.2fdeg", f);
-				internal.Form("hist_shr%d_ele%.1f_azi%.2f", shower, ele, f);
-				title.Form("Photon arrival time distribution for shower %d, elevation angle %.1f, azimuth angle %.1f", shower, ele, f);
-				
-				arrivaltimes[c] = (TProfile*)fo->Get(n);
-				arrivaltimes[c]->SetNameTitle(internal, title);
-				c++;
-				
-				cout << c << endl;
-			}
-		}
-	}
-	
-	TString filename;
-	filename.Form("%s/processed_root_files/timing_data_histogram_shower%d.root", CWD, showerid);
-	TFile *fs = new TFile(filename, "RECREATE");
-	
-	
-	for(int i = 0; i < c; i++)
-	{
-		arrivaltimes[i]->Write();
-	}
-	
-	fs->Close();
+	for(float f = 0.25; f <= 39.751; f += 0.5)
+	  {
+	    n.Form("h_Arrivaltimes_AzimuthOffset%.2fdeg", f);
+	    internal.Form("hist_shr%d_ele%.1f_azi%.2f", shower, ele, f);
+	    title.Form("Photon arrival time distribution for shower %d, elevation angle %.1f, azimuth angle %.1f", shower, ele, f);
+	    
+	    arrivaltimes[c] = (TProfile*)fo->Get(n);
+	    arrivaltimes[c]->SetNameTitle(internal, title);
+	    c++;
+	    
+	    cout << c << endl;
+	  }
+      }
+  }
+  
+  TString filename;
+  filename.Form("/processed_root_files/timing_data_histogram_shower%d.root", showerid);
+  TFile *fs = new TFile(CWD + filename, "RECREATE");
+  
+  
+  for(int i = 0; i < c; i++)
+    {
+      arrivaltimes[i]->Write();
+    }
+  
+  fs->Close();
 }
 
+/*
+ Go through all the timing_data_histogram_shower%d.root files to create a
+ summed.root file containing all data less than or equal to 1.01 elevation 
+ and 39.751 azimuth
+ */
 void g()
 {
-	TString filepaths[10];
-	TFile *files[10];
-	
-	for(int i = 0; i < 10; i++)
+  TString filepaths[10];
+  TFile *files[10];
+  
+  for(int i = 0; i < 10; i++)
+    {
+      filepaths[i].Form("/processed_root_files/timing_data_histogram_shower%d.root", i); 
+      files[i] = new TFile(CWD + filepaths[i], "READ");
+    }
+  
+  TH1D *h[880];
+  TString title;
+  int c = 0;
+  
+  for(float e = 0.0; e <= 1.01; e += 0.1)
+    {
+      for(float a = 0.25; a <= 39.751; a += 0.5)
 	{
-	  filepaths[i].Form("%s/processed_root_files/t/timing_data_histogram_shower%d.root", CWD, i); // don't know if this is right
-		files[i] = new TFile(filepaths[i], "READ");
+	  title.Form("hist_ele%.1f_azi%.2f", e, a);
+	  h[c] = new TH1D(title, title, 1000000, 0, 1e6);
+	  c++;
 	}
-	
-	TH1D *h[880];
-	TString title;
-	int c = 0;
-	
-	for(float e = 0.0; e <= 1.01; e += 0.1)
+    }
+  
+  TString internal;
+  
+  for(int i = 0; i < 10; i++)
+    {
+      c = 0;
+      
+      for(float e = 0.0; e <= 1.01; e += 0.1)
 	{
-		for(float a = 0.25; a <= 39.751; a += 0.5)
-		{
-			title.Form("hist_ele%.1f_azi%.2f", e, a);
-			h[c] = new TH1D(title, title, 1000000, 0, 1e6);
-			c++;
-		}
+	  for(float a = 0.25; a <= 39.751; a += 0.5)
+	    {
+	      internal.Form("hist_shr%d_ele%.1f_azi%.2f", i, e, a);
+	      h[c]->Add((TH1D*) files[i]->Get(internal));
+	      cout << internal << endl;
+	      c++;
+	    }
 	}
-	
-	TString internal;
-	
-	for(int i = 0; i < 10; i++)
-	{
-		c = 0;
-		
-		for(float e = 0.0; e <= 1.01; e += 0.1)
-		{
-			for(float a = 0.25; a <= 39.751; a += 0.5)
-			{
-				internal.Form("hist_shr%d_ele%.1f_azi%.2f", i, e, a);
-				h[c]->Add((TH1D*) files[i]->Get(internal));
-				cout << internal << endl;
-				c++;
-			}
-		}
-	}
-	
-	TString filename;
-	filename.Form("%s/processed_root_files/summed.root", CWD);
-	
-	TFile *fo = new TFile(filename, "RECREATE");
-	
-	for(int i = 0; i < 880; i++)
-	{
-		h[i]->Write();
-	}
+    }
+  
+  TString filename;
+  filename.Form("/processed_root_files/summed.root");
+  
+  TFile *fo = new TFile(CWD + filename, "RECREATE");
+  
+  for(int i = 0; i < 880; i++)
+    {
+      h[i]->Write();
+    }
 }
 
+/*
+ Average the summed.root file over the 10 showers and create a
+ summed_avg.root file 
+ */
 void h()
 {
   TString filename;
-  filename.Form("%s/processed_root_files/summed.root", CWD);
-  TFile *f = new TFile(filename, "READ");
+  filename.Form("/processed_root_files/summed.root");
+  TFile *f = new TFile(CWD + filename, "READ");
   TH1D *h[880];
   
   TString title;
@@ -155,8 +170,8 @@ void h()
 	}
     }
   
-  filename.Form("%s/processed_root_files/summed_avg.root", CWD);
-  TFile *fo = new TFile(filename, "RECREATE");
+  filename.Form("/processed_root_files/summed_avg.root");
+  TFile *fo = new TFile(CWD + filename, "RECREATE");
   
   for(int i = 0; i < 880; i++)
     {
@@ -164,14 +179,17 @@ void h()
     }
 }
 
+/*
+ 
+ */
 void i()
 {
   TString filename;
-  filename.Form("%s/processed_root_files/summed_avg.root", CWD);
-  TFile *histos = new TFile(filename, "READ");
+  filename.Form("/processed_root_files/summed_avg.root");
+  TFile *histos = new TFile(CWD + filename, "READ");
   
-  filename.Form("%s/processed_root_files/summed_timing_data_tprofiles.root", CWD);
-  TFile *profiles = new TFile(filename, "READ");
+  filename.Form("/processed_root_files/summed_timing_data_tprofiles.root"); // where are this file generated??
+  TFile *profiles = new TFile(CWD + filename, "READ");
   
   //TProfile *p;
   //TH1D *h;
