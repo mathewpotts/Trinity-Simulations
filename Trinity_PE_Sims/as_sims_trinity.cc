@@ -21,19 +21,32 @@ using namespace std;
 Int_t iConfig = 2;
 double DetectorAltitude[] = {0, 1, 2, 3};
 double pi = 3.14159265359;
-double lincorr[] = { 0.0509251, 0.0522854, 0.0595455, 0.0642221};
-double scalefirst[] = { 1.00001, 1.03346, 1.53535, 2.36961};
-double eleScaling[] = { 0.00163848, 0.00191408, 0.0071185, 0.0513182};
-double absorptionlength[] = { 16.7049, 16.6106, 17.9808, 19.0274};
-double parPEF[] = { 0.000332267, 0.580756, 4.25751e-05, 1.9491, 0.0427249};
 double REarth = 6371; //km
 Double_t c = 299792.458; //km/s
 Double_t DecayTime = 0.290e-12; //s
 Double_t Mtau = 1.7768; //GeV
 
+// Obtained from 3e4 GeV gamma rays
+double lincorr[] = { 0.0509251, 0.0522854, 0.0595455, 0.0642221};
+double scalefirst[] = { 1.00001, 1.03346, 1.53535, 2.36961};
+double eleScaling[] = { 0.00163848, 0.00191408, 0.0071185, 0.0513182};
+double absorptionlength[] = { 16.7049, 16.6106, 17.9808, 19.0274};
+
+// Parameterization of PE distribution at 50km,0ele, and 0 altitude
+double parPEF[] = { 0.000332267, 0.580756, 4.25751e-05, 1.9491, 0.0427249};
+
+/////////////////////////////
+// Functions:
+
+// Function is from Nepomuk's TrinityPerformaceCalculation Code
+// Slightly modifed to have 3 inputs rather than 2
 Double_t myPEfunction2(Double_t azi, Double_t elv, Double_t l)
 {
-  if(azi>0.69813170)
+  // azi is azimuth angle in rad
+  // elv is elevation angle in rad
+  // l is distance to where tau comes out in km
+  
+  if(azi>0.69813170) // if > 40 degrees then return 0
     return 0;
   
   //Calculate azimuth angle in frame of master pe distribution (50km, 0ele,
@@ -60,25 +73,51 @@ Double_t myPEfunction2(Double_t azi, Double_t elv, Double_t l)
   return f;
 }
 
+// Just a place holder now, modeled after Nepomuk's PE function. 
+Double_t myPhotonArrivalFunction(Double_t azi, Double_t elv, Double_t l)
+{
+  // azi is azimuth angle in rad
+  // elv is elevation angle in rad
+  // l is distance to where tau comes out in km
+
+  if (azi>0.69813170) // if > 40 degrees then return 0
+    return 0;
+  
+  // Calculate azimuth angle in frame of master photon arrival distribution
+  Double_t dTelAngle = atan(DetectorAltitude[iConfig]*1e-3/l);
+  Double_t dAngle = sqrt(azi*azi + (elv-dTelAngle)*(elv-dTelAngle))*57.295780; //in deg
+  
+  // Calculate the timing spread of photons
+  Double_t f = 0;
+  if (dAngle < 1.3)
+    f = ;
+  else
+    f = ;
+  
+  return f;
+}
+
+// Function is from Nepomuk's TrinityPerformaceCalculation Code
 Double_t DistanceThroughEarth(Double_t azimuth, Double_t elevation, Double_t y)
 {
-  elevation = elevation/180*pi; //elevation angle (determines path through Earth;
-  azimuth = azimuth/180.*pi;  //azimuth angle
+  elevation = elevation * TMath::DegToRad(); //elevation angle in rad 
+                                             //(determines path through Earth)
+  azimuth = azimuth * TMath::DegToRad();  //azimuth angle in rad
   
-  Double_t l = y; //Distance from detector to where the tau comes out detector is always at z=0
+  Double_t l = y; //Distance from detector to where the tau comes out 
+                  //detector is always at z=0
   
   Double_t v = sqrt((REarth+DetectorAltitude[iConfig])*(REarth+DetectorAltitude[iConfig])-REarth*REarth);
   
   //shortest distance d between tau trajectory and detector
   Double_t nproj = y*sqrt( 1 + tan(azimuth)*tan(azimuth) ); //projection of trajectory to x-y plane
-  Double_t denomsquared= y*tan(azimuth)*y*tan(azimuth) + y*y + nproj*nproj*tan(elevation)*tan(elevation)  ;
+  Double_t denomsquared= y*tan(azimuth)*y*tan(azimuth) + y*y + nproj*nproj*tan(elevation)*tan(elevation);
   
   //normalized trajectory vector of tau
   Double_t dNormalize = y/sqrt(denomsquared);
   //Double_t dNx = dNormalize * tan(azimuth);
   Double_t dNy = -dNormalize;
   Double_t dNz = dNormalize * sqrt( 1 + tan(azimuth)*tan(azimuth) ) * tan(elevation);
-  
   
   Double_t p = 2 * ( REarth*dNz - (v-l)*dNy );
   Double_t q = (v-l)*(v-l);
@@ -92,7 +131,8 @@ Double_t DistanceThroughEarth(Double_t azimuth, Double_t elevation, Double_t y)
   return fabs(i2-i1);
 }
 
-Double_t GH(Double_t *x, Double_t *p) //gaisser hillas function
+// Gaisser-Hillas Function
+Double_t GH(Double_t *x, Double_t *p) 
 {
   Double_t xx = x[0];
   
@@ -104,7 +144,8 @@ Double_t GH(Double_t *x, Double_t *p) //gaisser hillas function
   return N_0 * pow(((xx - X_0) / (X_max - X_0)), ((X_max - X_0) / lmbda)) * exp((X_max - xx) / lmbda);
 }
 
-Double_t Gauss2D(Double_t *x, Double_t *p) //2D gaussian function
+//2D Gaussian Function
+Double_t Gauss2D(Double_t *x, Double_t *p) 
 {
   Double_t xx = x[0];
   Double_t yy = x[1];
@@ -114,7 +155,9 @@ Double_t Gauss2D(Double_t *x, Double_t *p) //2D gaussian function
   return 1. / (2. * pi * sigma * sigma) * exp(-1. * (xx * xx + yy * yy) / (2. * sigma * sigma));
 }
 
-Double_t DistanceFovBelow(Double_t fovbelow, Double_t hdist) //returns the distance in km from the detector to the lowest point of the lower fov
+// Returns the distance in km from the detector to the lowest point 
+// of the detector's lower fov
+Double_t DistanceFovBelow(Double_t fovbelow, Double_t hdist) 
 {
   Double_t slope = tan(fovbelow * pi / 180.);
   Double_t x = (sqrt(slope * slope * REarth * REarth + 2. * hdist * slope * REarth - hdist * hdist * slope * slope) + slope * slope * hdist - slope * REarth) / (slope * slope + 1.);
@@ -123,7 +166,8 @@ Double_t DistanceFovBelow(Double_t fovbelow, Double_t hdist) //returns the dista
   return sqrt((hdist - x) * (hdist - x) + (REarth - y) * (REarth - y));
 }
 
-Double_t *GetTauEarthCoords(Double_t azi, Double_t elv, Double_t l, Double_t hdist) //returns the coordinates of tau emergence wrt to the center of the earth
+// Returns the coordinates of tau emergence wrt to the center of the earth
+Double_t *GetTauEarthCoords(Double_t azi, Double_t elv, Double_t l, Double_t hdist) 
 {
   static Double_t ret[4] = {0, 0, 0, -1}; //4th element is an error code
   
@@ -153,7 +197,9 @@ Double_t *GetTauEarthCoords(Double_t azi, Double_t elv, Double_t l, Double_t hdi
   return ret;
 }
 
-Double_t *TauTrajectoryFoV(Double_t *coords, Double_t azi, Double_t elv, Double_t fov, Double_t hdist, bool lower) //returns the coordinates of the intersecting point of the tau trajectory and the upper or lower fov
+// Returns the coordinates of the intersecting point of the tau 
+// trajectory and the upper or lower fov
+Double_t *TauTrajectoryFoV(Double_t *coords, Double_t azi, Double_t elv, Double_t fov, Double_t hdist, bool lower) 
 {
   static Double_t ret[4] = {0, 0, 0, -1}; //4th element is an error code
   
@@ -236,7 +282,8 @@ Double_t *TauTrajectoryFoV(Double_t *coords, Double_t azi, Double_t elv, Double_
   return ret;
 }
 
-bool TauEmergeBelowVFoV(Double_t *coords, Double_t vfovbelow, Double_t hdist) //check if the tau emerges below the lower fov of the detector
+// Check if the tau emerges below the lower fov of the detector
+bool TauEmergeBelowVFoV(Double_t *coords, Double_t vfovbelow, Double_t hdist) 
 {
   Double_t x_e = coords[0]; //tau emergence coords
   Double_t y_e = coords[1];
@@ -258,7 +305,7 @@ bool TauEmergeBelowVFoV(Double_t *coords, Double_t vfovbelow, Double_t hdist) //
   return true;
 }
 
-//checks to see if the air shower is observable
+// Checks to see if the air shower is observable
 bool AirShowerAppearsInVFoV(Double_t *coords, Double_t dprime, Double_t d, Double_t azi, Double_t elv, Double_t l, Double_t vfovabove, Double_t vfovbelow, Double_t hdist, Double_t s, short tau_config)
 {
   Double_t x_e = coords[0]; //tau emergence coords
@@ -388,7 +435,7 @@ void SimPEinCam(Double_t azi, Double_t elv, Double_t l, Double_t E)
   Double_t eff_mirror_size = 10; //m^2
   iConfig = 2; //km detector altitude
   
-  Double_t totalPEs = myPEfunction2((azi * pi / 180.), (elv * pi / 180.), l) * eff_mirror_size * E; //calculating the average total PEs expected from the shower
+  Double_t totalPEs = myPEfunction2(azi * TMath::DegToRad(), elv * TMath::DegToRad(), l) * eff_mirror_size * E; //calculating the average total PEs expected from the shower
   
   // Checks to exit
   if (totalPEs == 0) //exit if shower azimuth angle >40 degrees
@@ -1148,7 +1195,7 @@ void SimNAirShowers(Double_t azi, Double_t elv, Double_t l, Double_t E, int tria
   iConfig = 2; //km detector altitude
   int det_alt = 2;
   
-  Double_t totalPEs = myPEfunction2((azi * pi / 180.), (elv * pi / 180.), l) * eff_mirror_size * E;
+  Double_t totalPEs = myPEfunction2(azi * TMath::DegToRad(), elv * TMath::DegToRad(), l) * eff_mirror_size * E;
   if(totalPEs == 0)
     {
       cout << "Azimuth angle too large." << endl;

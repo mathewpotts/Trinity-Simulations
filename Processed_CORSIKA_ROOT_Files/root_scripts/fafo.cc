@@ -28,7 +28,7 @@ TString CWD = gSystem->pwd(); // One dir up from this file
 void f(int showerid) // currently sums only one shower tile file at different elevations
 {
   int nfiles = 11;
-  int nshowers = 1; // there are 9 showers simulated from CORSIKA
+  int nshowers = 9; // there are 9 showers simulated from CORSIKA
   int maxazi = 40;
   int binsperangle = 2;
   
@@ -42,7 +42,7 @@ void f(int showerid) // currently sums only one shower tile file at different el
   int c = 0;
   int shower = showerid;	
   
-  //for(int shower = 0; shower < nshowers; shower++) // Commented out to save time?
+  //for(int shower = 0; shower < nshowers; shower++) 
   {
     for(float ele = 0.0; ele <= 1.05; ele += 0.1)
       {
@@ -69,8 +69,7 @@ void f(int showerid) // currently sums only one shower tile file at different el
   
   TString filename;
   filename.Form("/processed_root_files/timing_data_histogram_shower%d.root", showerid);
-  TFile *fs = new TFile(CWD + filename, "RECREATE");
-  
+  TFile *fs = new TFile(CWD + filename, "RECREATE");  
   
   for(int i = 0; i < c; i++)
     {
@@ -297,8 +296,24 @@ void j()
 
 int main(int argc, char **argv)
 {
+  // Generate timing_data_histogram_shower%d.root files
+  // to add if statement eventually...
+  //for (int i = 0; i < 10 ; i++)
+  //  {
+  //    cout << "Processing ShowerID: " << i << endl;
+  //    f(i);
+  //  }
   
-  f(1);
+  cout << "g()" << endl;
+  g();
+  
+  cout << "h()" << endl;
+  h();
+  
+  //i();
+  
+  cout << "j()" << endl;
+  j();
   
   return 0;
 }
